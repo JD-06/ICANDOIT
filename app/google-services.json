@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "767305774202",
+    "firebase_url": "https://i-can-do-it-cbe8b.firebaseio.com",
+    "project_id": "i-can-do-it-cbe8b",
+    "storage_bucket": "i-can-do-it-cbe8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767305774202:android:d19b2ec9713fdd5824b7c3",
+        "android_client_info": {
+          "package_name": "com.somi.imakeit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767305774202-r4050c54c4pn4cmsf38abbp5u27ueq8e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.somi.imakeit",
+            "certificate_hash": "2963da1383d3733c3ff83b82e92445b3069f2394"
+          }
+        },
+        {
+          "client_id": "767305774202-92snfcrp56g0rsf7t8heesu450savk2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp64B5AIAHG1-ygwH0hfJwOuuD5IlqVrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767305774202-92snfcrp56g0rsf7t8heesu450savk2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".peticion">
+
+    <TextView
+        android:id="@+id/textView"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Peticion" />
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <EditText
+        android:hint="Nombre de la peticion"
+        android:id="@+id/nombre"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:hint="Rango"
+        android:id="@+id/rango"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:hint="Profesion"
+        android:id="@+id/profesion"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center|right"
+        android:text="$"
+        android:textSize="20dp"
+        android:layout_width="20dp"
+        android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/recompensas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:inputType="number|numberDecimal" />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:gravity="center|right"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:src="@drawable/crown"/>
+    <EditText
+        android:hint="N. de coronas"
+        android:id="@+id/coronas"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        </LinearLayout>
+    <EditText
+
+        android:hint="Descripcion"
+        android:id="@+id/descripcion"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/enviar"
+            android:text="Enviar"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
